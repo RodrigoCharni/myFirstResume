@@ -1,6 +1,13 @@
 /************************
  Golblal Styles.
 ************************/
+/*Apply a natural box layout model to all elements, but allowing components to change*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
