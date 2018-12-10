@@ -35,6 +35,15 @@ a:hover{
   padding: 50px;
   overflow: auto;
 }
+.col-narrow{
+  width: 30%;
+  float: left;
+}
+.col-wide{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
 /************************
  Header and footer.
 ************************/
@@ -46,10 +55,7 @@ header, footer{
  Header
 ************************/
 .profile-img{
-  width: 300px;
   border-radius: 50%;
-  float: left;
-  margin-right : 30px;
 }
 header h1,
 header h2{
