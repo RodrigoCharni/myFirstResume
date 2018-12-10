@@ -26,6 +26,7 @@ a:hover{
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
+  overflow: auto;
 }
 /************************
  Header and footer.
@@ -37,9 +38,16 @@ header, footer{
 /************************
  Header
 ************************/
+.profile-img{
+  width: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right : 30px;
+}
 header h1,
 header h2{
   color: #EDF2F5;
+  margin: 0;
 }
 /************************
 Footer.
