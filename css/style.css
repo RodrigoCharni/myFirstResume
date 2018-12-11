@@ -8,6 +8,15 @@ html{
 *, *:before, *:after{
   box-sizing: inherit;
 }
+/*Self-clearing floats: Clearfix Hack*/
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.clear{
+  clear: both;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -38,11 +47,13 @@ a:hover{
 .col-narrow{
   width: 30%;
   float: left;
+  min-height: 175px;
 }
 .col-wide{
   width: 70%;
   float: left;
   padding-left: 20px;
+  min-height: 175px;
 }
 /************************
  Header and footer.
@@ -68,7 +79,9 @@ Footer.
 footer{
   text-align: center;
 }
-
+.soc-media-links{
+  padding: 15px;
+}
 /************************
  Work Experience.
 ************************/
