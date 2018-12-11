@@ -12,6 +12,8 @@
       content="Rodrigo Charnichart" />
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
+    <!--Icon fonts for social media-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!--My stylesheet-->
     <link href="css/style.css" type="text/css" rel="stylesheet" />
     <title>Rodrigo Charnichart's Resume</title>
@@ -24,13 +26,13 @@
             <h1>Rodrigo Charnichart</h1>
             <h2>Desktop, Back-end and Front-end Developer</h2>
             <p>
-              I am passionate about helping people using information technologies,
+              Passionated about helping people using information technologies,
               knowing new technological tools and then analyzing and implementing
               them as software solutions for personal and business life,
               facilitating day-to-day workflow.
             </p>
           </div>
-          <p>
+          <p class="clear">
             Experience building software solutions for enterprises.
             I have three and a half years as a software development.
             One year for structured programming language NATURAL - ADABAS.
@@ -54,9 +56,12 @@
           <div class="content-wrap">
             <h2>Work Experience</h2>
             <!--Job details-->
+            <div class="col-narrow">
               <h3>Business Admin | Self Employed</h3>
               <p>MBE COURIER & PARCEL SERVICE </p>
               <p>Jan 2017 – May 2018 </p>
+            </div>
+            <div class="col-wide">
               <p>
                 Responsible of managing and executing all tasks in each business' area
                 applying software solutions in order to ease intern workflows
@@ -93,29 +98,41 @@
                   Created flyers and business cards for the business.
                 </li>
               </ul>
+            </div>
             <!--Job details-->
+            <div class="col-narrow">
               <h3>Back-end Developer</h3>
               <p>Grupo Fernandez Hinojosa</p>
               <p>Jul 2015 – Dec 2016 </p>
+            </div>
+            <div class="col-wide">
               <p>
                 Memeber of a team of developers to support the development of multiple web services,
                 with technology .NET Framework 4.0, Visual Studio 2015, programming language C # and WCF,
                 for data migration, designing and executing stored procedures in SQL Server.
               </p>
+            </div>
             <!--Job details-->
-              <h3>SharePoint Administrator</h3>
+            <div class="col-narrow">
+              <h3>SharePoint Admin</h3>
               <p>TECHFIELD</p>
               <p>Feb 2015 – Jun 2015 </p>
+            </div>
+            <div class="col-wide">
               <!--Summary-->
               <p>
                 Managed, designed and created web sites and site collections in SharePoint 2013 platform
                 using HTML and CSS in order to maintain and ease the end-users working collaborative with
                 the company's data.
               </p>
+            </div>
             <!--Job details-->
+            <div class="col-narrow">
               <h3>Back-end Developer</h3>
               <p>TATA CONSULTANCY SERVICES</p>
               <p>Dec 2013 – Feb 2015</p>
+            </div>
+            <div class="col-wide">
               <p>
                 Memeber of a team of developers for the modification of existing programs and maps
                 (user interfaces) according to the technical specification of the requirement
@@ -123,10 +140,14 @@
                 database ADABAS. Performing unit test of the programs documenting the results with
                 the screenshot in Excel 2010 storing in SharePoint 2010.
               </p>
-            <!--Job details-->
+            </div>
+            <div class="col-narrow">
+              <!--Job details-->
               <h3>Intern IT</h3>
               <p>PEMEX</p>
               <p>Jun 2011 – Aug 2013</p>
+            </div>
+            <div class="col-wide">
               <p>Job summary</p>
               <!--The list can be deleted-->
               <p>Key Contributions:</p>
@@ -146,9 +167,10 @@
                 </li>
                 <li>
                   Responsible of designing, developing and managing a data system in Access 2010, with programming language VBA and SQL,
-                  as well as the implementation of it in over 250 users' computers.
+                  as well as the implementation of it in over 500 users' computers.
                 </li>
               </ul>
+            </div>
           </div>
         </section>
         <!--Education-->
@@ -156,9 +178,25 @@
           <div class="content-wrap">
             <h2>Education</h2>
             <!--School details-->
-            <h3>School, name year yo attended</h3>
-            <p>Designation yout received</p>
-            <p>Summary</p>
+            <h3>SOFTTEK University (Aguascalientes 2018)</h3>
+            <p>Back-End Sw Development</p>
+            <p>20 week program covering HTML, CSS, Git, GitLab, GitHub, NinjaMock and Entrepreneurship</p>
+            <!--School details-->
+            <h3>TI TecnoEducación (Querétaro 2015)</h3>
+            <p>ORACLE 11g</p>
+            <p>12 week program covering SQL, Data Definition Language and Data Manipulation Langauge with Oracle 11g</p>
+            <!--School details-->
+            <h3>Insituto Mexicano del Petroleo (Mexico City 2013)</h3>
+            <p>Finance, Accounting and Excel for Executives</p>
+            <p>12 week program covering balance sheet and income statement accounts with Microsoft Excel's financial functions </p>
+            <!--School details-->
+            <h3>UNAM FES Acatlán (Mexico City 2013)</h3>
+            <p>Data Bases with SQL Server 2008</p>
+            <p>12 week program covering SQL, Data Definition Language and Data Manipulation Langauge with Microsoft SQL Server 2008</p>
+            <!--School details-->
+            <h3>UNITEC Atizapan (Mexico City 2013)</h3>
+            <p>Bachelor’s Degree in IT </p>
+            <p>General Studies</p>
           </div>
         </section>
       </main>
@@ -168,9 +206,14 @@
           <h2>Let's keep in touch</h2>
           <!--Social media and contact links-->
           <div class="">
-            <a href="mailto:r.charnichart.c@gmail.com">r.charnichart.c@gmail.com</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">LinkedIn</a>
+            <p><a href="mailto:r.charnichart.c@gmail.com">r.charnichart.c@gmail.com</a></p>
+            <p>
+              <a class="soc-media-links" href="https://twitter.com/RodrigoCharni" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+              <a class="soc-media-links" href="https://www.linkedin.com/in/rodrigocharni/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+              <a class="soc-media-links" href="https://www.facebook.com/RodrigoCharni" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+              <a class="soc-media-links" href="https://www.instagram.com/rodrigocharni/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+
+            </p>
           </div>
           <p>Copyright (c) 2018 Copyright Holder All Rights Reserved.</p>
         </div>
