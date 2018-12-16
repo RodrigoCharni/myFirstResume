@@ -144,7 +144,11 @@ h3 ~ p{
  Education.
 ************************/
 .education{
-  background: #8D99AE;
+  /*background: #8D99AE;*/
+  background: linear-gradient(rgba(141, 153, 174, .7),
+                 rgba(141, 153, 174, .3)),
+                 url(../media/Stone-Mountain-Park.jpg) no-repeat fixed;
+  background-size: cover;
 }
 p + h3{
   margin-top: 30px;
