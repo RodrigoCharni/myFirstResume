@@ -62,6 +62,13 @@ a:hover{
 .capitalize{
   text-transform: capitalize;
 }
+.btn{
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
 /************************
  Header and footer.
 ************************/
@@ -80,11 +87,17 @@ header, footer{
 }
 header{
   padding-top: 45px;
+  position: relative;
 }
 header h1,
 header h2{
   color: #EDF2F5;
   margin: 0;
+}
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 /************************
 Footer.
